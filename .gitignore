@@ -1,0 +1,20 @@
+# Ignore build output and releases
+**/bin/
+**/obj/
+releases/
+*.zip
+*.7z
+
+# Visual Studio / Rider ignores
+.vs/
+.idea/
+*.user
+*.suo
+
+# Ignore decompiled source and game assemblies due to copyright
+decompiled/
+BepInEx/
+
+# Ignore everything in references except README.md
+references/*
+!references/README.md
